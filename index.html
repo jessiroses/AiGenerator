@@ -19,18 +19,21 @@
       <h1>AI Book Generator</h1>
       <h2>Let AI help you find your next great read</h2>
       <main>
-        <form id="book-form">
-          <input
-            type="text"
-            placeholder="Enter what genre of book you're looking for"
-            autofocus
-            required
-            class="instruction"
-            id="user-instruction"
-          />
-          <input type="submit" class="submit" />
-        </form>
-        <div class="book-recommendation"></div>
+        <div class="form-wrapper">
+          <form id="book-form">
+            <input
+              type="text"
+              placeholder="Enter what genre of book you're looking for"
+              autofocus
+              required
+              class="instruction"
+              id="user-instruction"
+            />
+            <input type="submit" class="submit" />
+          </form>
+          <small id="hint">i.e. Romance, Fantasy, etc.</small>
+        </div>
+        <div class="book-recommendation hidden"></div>
       </main>
       <footer>
         AI project was coded by
