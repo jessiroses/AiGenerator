@@ -58,7 +58,7 @@ form {
 
 .submit {
   border-radius: 5px;
-  margin-left: 10px;
+  margin-left: 0;
   background-color: #c1916f;
   border: 2px solid #473223;
   font-size: 15px;
