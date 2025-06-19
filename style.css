@@ -52,6 +52,13 @@ form {
   border: 2px solid #473223;
   font-size: 15px;
   width: 20%;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.submit:hover {
+  background-color: #473223;
+  color: white;
 }
 
 .book-recommendation {
