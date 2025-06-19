@@ -11,13 +11,14 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
       <h1>AI Book Generator</h1>
       <h2>Let AI help you find your next great read</h2>
       <main>
-        <form>
+        <form id="book-form">
           <input
             type="text"
             placeholder="Enter what genre of book you're looking for"
@@ -27,16 +28,7 @@
           />
           <input type="submit" class="submit" />
         </form>
-        <div class="book-recommendation">
-          Book Recommendation: The Love Hypothesis by Ali Hazelwood
-          <div>
-            When PhD candidate Olive Smith fakes a relationship with a hotshot
-            professor to prove to her best friend that she's moved on, she never
-            expects it to lead to real feelings. Full of witty banter, awkward
-            science lab moments, and slow-burn romance, The Love Hypothesis is
-            perfect for fans of fake-dating tropes and geeky charm.
-          </div>
-        </div>
+        <div class="book-recommendation"></div>
       </main>
       <footer>
         AI project was coded by
